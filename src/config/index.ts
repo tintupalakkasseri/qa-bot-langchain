@@ -26,6 +26,7 @@ export const config = {
     dbName: process.env.MONGODB_DB_NAME || "rag_userstories",
     collection: process.env.MONGODB_COLLECTION || "stories",
     vectorIndexName: process.env.MONGODB_VECTOR_INDEX || "vector_index_stories",
+    bm25IndexName: process.env.MONGODB_BM25_INDEX || "BM25_search",
   },
 
   // Embeddings
